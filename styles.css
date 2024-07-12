@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #00ff99;
+    color: black;
+}
+
+header {
+    background-color: #00c3ff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links{
+    list-style: none;
+    padding: 0;
+}
+
+.nav-links li{
+    display: inline;
+    margin: 0 10px;
+}
+
+button {
+    background: none;
+    border: none;
+    padding: 2px 2px;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 16px;
+    position: relative;
+}
+
+.material-icons {
+    transition: transform 0.4s ease, color 1s ease;
+}
+
+.dark-mode {
+    background-color: rgba(56, 0, 61, 1);
+    color: #ffffff;
+}
+
+.dark-mode header {
+    background-color: rgba(0, 13, 77, 0.5);
+}
+
+.dark-mode button {
+    color: white;
+}
+
+.content {
+    text-align: center;
+    margin: 0 50px;
+    padding: 0px;
+}
+
+h1 {
+    text-align: center;
+    margin: 0 0px;
+    padding: 25px;
+    font-size: 42px;
+}
+
+.card {
+    background-color: rgba(1, 165, 224, 0.5);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px;
+    flex: 1 1 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.4s ease;
+}
+
+.cards {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.cards .card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.dark-mode .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(210, 210, 210, 0.5);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.dark-mode .card {
+    color: #ffffff;
+    background-color: rgba(0, 35, 152, 0.5);
+    box-shadow: 0 4px 8px rgba(200, 200, 200, 0.5);
+}
+
+.history {
+    text-align: center;
+    margin: 0 50px;
+    padding: 0px;
+}
+
+.threeD_print  {
+    text-align: center;
+    margin: 0 0px;
+    padding: 25px;
+    font-size: 20px;
+}
